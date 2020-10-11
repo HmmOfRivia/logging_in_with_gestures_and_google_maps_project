@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Laborki</string>
+    <string name="no_accelerometer_detected">Nie wykryto akcelerometra.</string>
+    <string name="play">System Locked</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="enter_login">Enter your login</string>
+    <string name="long_login">Too long!!!</string>
+    <string name="wrong_login">Wrong login!!!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="iconMarket">Market</string>
+    <string name="iconRestaurant">Restaurant</string>
+    <string name="iconBank">Bank</string>
+    <string name="wilenska_shop">Wilenska Shop</string>
+
+</resources>

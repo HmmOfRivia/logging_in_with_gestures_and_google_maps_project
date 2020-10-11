@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".presentation.LoginFragment"
+    android:id="@+id/login_frag">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="542dp"
+        android:layout_height="219dp"
+        android:layout_gravity="center_horizontal"
+        android:alpha="0.5"
+        android:scaleType="centerInside"
+        android:scaleX="1.4"
+        android:src="@drawable/pw_apka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/app_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="331dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <EditText
+            android:id="@+id/loginText"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="15dp"
+            android:background="@drawable/blue_login_background"
+            android:gravity="center"
+            android:hint="@string/enter_login"
+            android:textSize="12sp"
+            android:inputType="textVisiblePassword"
+            android:maxLength="6"/>
+
+        <com.spark.submitbutton.SubmitButton
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Confirm"
+            android:textColor="@color/gray"
+            app:sub_btn_background="@color/white"
+            app:sub_btn_duration="2000"
+            app:sub_btn_line_color="@color/blue_dark"
+            app:sub_btn_ripple_color="@color/blue"
+            app:sub_btn_tick_color="@color/white"
+            tools:ignore="HardcodedText"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="120dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
